@@ -40,7 +40,7 @@ client.on('message', message =>  {
             if(!role) return message.reply('**لا تملك الصلاحية للكتابة الكود**')
             if (!code) return message.reply(`**${message.author},اكتب الكود يلي تبي تحطه**`)
             if(!codeinfo) return message.reply(`**${message.author},حط مواصفات الكود**`)
-                client.channels.get("464197417361997834").send(`@everyone ~|~ @here
+                client.channels.get("461586047415877635").send(`@everyone ~|~ @here
 ================
 \`\`\`js
 ${code}
@@ -51,7 +51,7 @@ ${codeinfo}
 **تم النشر بواسطة**:
 ${message.author}`)
                 members.push(message.author.id);
-                message.channel.send(`**${message.author},✅لقد تم وضع الكود بنجاح في  #js-codes**`)
+                message.channel.send(`**${message.author},✅لقد تم وضع الكود بنجاح في  #codes-js**`)
             
  
 }
